@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas - Centro Restobar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Centro</h1>
+                <p class="tagline">Restobar & Cocina Peruana</p>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="entradas.html">Entradas</a></li>
+                    <li><a href="platos.html">Platos de Fondo</a></li>
+                    <li><a href="bebidas.html" class="active">Bebidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-hero bebidas-hero">
+            <h2>Nuestras Bebidas</h2>
+            <p>Refrescantes creaciones y cócteles exclusivos</p>
+        </section>
+
+        <section class="menu-items">
+            <div class="bebidas-container">
+                <!-- Bebidas No Alcohólicas -->
+                <div class="bebidas-section" id="no-alcoholicas">
+                    <h3 class="section-title">Bebidas Sin Alcohol</h3>
+                    <div class="bebidas-grid">
+                        <article class="bebida-card">
+                            <div class="bebida-card-image">
+                                <img src="assets/images/chichamorada.jpg" alt="Chicha Morada">
+                            </div>
+                            <div class="bebida-card-content">
+                                <h4>Chicha Morada</h4>
+                                <p>Bebida tradicional peruana a base de maíz morado, piña, manzana y especias.</p>
+                                <div class="bebida-details">
+                                    <span class="price">S/. 12.00</span>
+                                    <span class="portion">500ml</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="bebida-card">
+                            <div class="bebida-card-image">
+                                <img src="assets/images/hierbaluisa.jpg" alt="Limonada de Hierba Luisa">
+                            </div>
+                            <div class="bebida-card-content">
+                                <h4>Limonada de Hierba Luisa</h4>
+                                <p>Refrescante limonada con un toque aromático de hierba luisa.</p>
+                                <div class="bebida-details">
+                                    <span class="price">S/. 10.00</span>
+                                    <span class="portion">500ml</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Bebidas Alcohólicas -->
+                <div class="bebidas-section" id="alcoholicas">
+                    <h3 class="section-title">Cócteles y Bebidas con Alcohol</h3>
+                    <div class="bebidas-grid">
+                        <article class="bebida-card cocktail">
+                            <div class="bebida-card-image">
+                                <img src="assets/images/piscosour.jpg" alt="Pisco Sour">
+                                <span class="alcohol-badge">Contiene alcohol</span>
+                            </div>
+                            <div class="bebida-card-content">
+                                <h4>Pisco Sour</h4>
+                                <p>Clásico cóctel peruano con pisco, limón, clara de huevo y amargo de angostura.</p>
+                                <div class="bebida-details">
+                                    <span class="price">S/. 25.00</span>
+                                    <span class="alcohol-content">42% Alc.</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="bebida-card cocktail">
+                            <div class="bebida-card-image">
+                                <img src="assets/images/chilcano.jpg" alt="Chilcano">
+                                <span class="alcohol-badge">Contiene alcohol</span>
+                            </div>
+                            <div class="bebida-card-content">
+                                <h4>Chilcano</h4>
+                                <p>Refrescante cóctel de pisco, ginger ale, limón y amargo de angostura.</p>
+                                <div class="bebida-details">
+                                    <span class="price">S/. 22.00</span>
+                                    <span class="alcohol-content">35% Alc.</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. La Marina 123, Lima</p>
+                <p><i class="fas fa-phone"></i> +51 987 654 321</p>
+                <p><i class="fas fa-envelope"></i> info@centrorestobar.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Centro Restobar. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
